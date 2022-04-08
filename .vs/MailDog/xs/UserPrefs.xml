@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{8681DC68-0A4A-EABB-4D20-5458147441B7}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Movement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SceneTrans.cs">
     <Files>
       <File FileName="Assets/Scripts/CameraFollow.cs" Line="5" Column="26" />
-      <File FileName="Assets/Scripts/Movement.cs" Line="4" Column="21" />
+      <File FileName="Assets/Scripts/Movement.cs" Line="38" Column="27" />
+      <File FileName="Assets/Scripts/SceneTrans.cs" Line="4" Column="23" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,7 +11,7 @@
           <Node name="MailDog" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Movement.cs" selected="True" />
+                <Node name="SceneTrans.cs" selected="True" />
               </Node>
             </Node>
           </Node>
