@@ -216,3 +216,11 @@ Received Import Request.
 Start importing Assets/Sprites/UI/main menu.png using Guid(a643c635aaafd4439b1fd1630155705c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0b24dda3fa88b1906e75407a096e16') in 0.046549 seconds 
   Import took 0.054822 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 282.953263 seconds.
+  path: Assets/Sprites
+  artifactKey: Guid(f1baa935bec1d42ae85d7e3c77f661bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites using Guid(f1baa935bec1d42ae85d7e3c77f661bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6768b30272cbffc1d0d2b43d917e4550') in 0.004101 seconds 
+  Import took 0.016188 seconds .
+
