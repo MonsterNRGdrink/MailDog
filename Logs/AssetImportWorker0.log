@@ -158,3 +158,59 @@ Received Import Request.
 Start importing Assets/Environment/TERRAIN.fbx using Guid(91e18cc90eb124b77aa9b2abf851777d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0757f02271002e0f07794594167929c3') in 1.177541 seconds 
   Import took 1.197507 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 360.145509 seconds.
+  path: Assets/Models/park objects.fbx
+  artifactKey: Guid(c13cf57332c854fb8a666588906bb816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/park objects.fbx using Guid(c13cf57332c854fb8a666588906bb816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e007b39806a25f01a00a008bf513dbeb') in 0.104194 seconds 
+  Import took 0.115352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Models/treeDarkGreen.fbx
+  artifactKey: Guid(fb3b3f235c21c4369ac1a8eafa7d9b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/treeDarkGreen.fbx using Guid(fb3b3f235c21c4369ac1a8eafa7d9b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c0e357c0f329ac8c731d2d8561f97c') in 0.053225 seconds 
+  Import took 0.061910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/Models/tree.fbx
+  artifactKey: Guid(02f29a1aa0081461494e1fe5a28d58de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/tree.fbx using Guid(02f29a1aa0081461494e1fe5a28d58de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6cadfb911bd24cc399c2455db5f53aa') in 0.085732 seconds 
+  Import took 0.093747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.811601 seconds.
+  path: Assets/Models/MAterials/common.mat
+  artifactKey: Guid(61fb3413f842d49ada7019d1f2a7211a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MAterials/common.mat using Guid(61fb3413f842d49ada7019d1f2a7211a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3952c6887751da3133b5046398e0dc9d') in 0.717109 seconds 
+  Import took 0.731104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.040869 seconds.
+  path: Assets/Prefabs/hoghus.prefab
+  artifactKey: Guid(b1e446a03c6e547fdbbfffc1329af63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/hoghus.prefab using Guid(b1e446a03c6e547fdbbfffc1329af63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bbf8abb5949d8c32f9d992c3094f5aa') in 0.234347 seconds 
+  Import took 0.248551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Prefabs/treeDarkGreen.prefab
+  artifactKey: Guid(7f82c4bdfa56049f7aba454fe2a7e589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/treeDarkGreen.prefab using Guid(7f82c4bdfa56049f7aba454fe2a7e589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e582d86284d6e7f917b002d7727aac') in 0.038698 seconds 
+  Import took 0.048352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5124.815481 seconds.
+  path: Assets/Environment/TERRAINFIXED.fbx
+  artifactKey: Guid(0bac8f47714ac4ac58237905e9d813db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/TERRAINFIXED.fbx using Guid(0bac8f47714ac4ac58237905e9d813db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5688ff2145c576172259c3e8e9ab3a19') in 0.199741 seconds 
+  Import took 0.255659 seconds .
+
