@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{8681DC68-0A4A-EABB-4D20-5458147441B7}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SceneTrans.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CharacterMovement.cs">
     <Files>
       <File FileName="Assets/Scripts/CameraFollow.cs" Line="5" Column="26" />
-      <File FileName="Assets/Scripts/Movement.cs" Line="38" Column="27" />
       <File FileName="Assets/Scripts/SceneTrans.cs" Line="4" Column="23" />
+      <File FileName="Assets/Scripts/CharacterMovement.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,7 +11,7 @@
           <Node name="MailDog" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="SceneTrans.cs" selected="True" />
+                <Node name="CharacterMovement.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -21,7 +21,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="24e50ad3-64c4-4a23-9b73-d1db134620ae" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5d622fbc-a3b2-4185-9899-c49377147282" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

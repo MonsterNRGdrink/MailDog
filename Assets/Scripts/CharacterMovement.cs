@@ -6,11 +6,13 @@ using UnityEngine.AI;
 [RequireComponent(typeof(NavMeshAgent))]
 public class CharacterMovement : MonoBehaviour {
   private NavMeshAgent agent;
-  
+  [SerializeField]  private Transform targetObject;
+
   void Start() {
     agent = GetComponent<NavMeshAgent>();
+        
   }
-    
+    /*
   void Update() {
     if (Input.GetMouseButtonDown(0)) {
       RaycastHit hitInfo;
@@ -22,4 +24,12 @@ public class CharacterMovement : MonoBehaviour {
       }
     }
   }
+    */
+
+    private void Update()
+    {
+        NavMeshHit targetLocation;
+        NavMesh.FindClosestEdge(targetObject.position, out targetLocation, NavMesh.AllAreas);
+        agent.SetDestination(targetLocation.position);
+    }
 }
