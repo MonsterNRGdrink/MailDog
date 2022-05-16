@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{8681DC68-0A4A-EABB-4D20-5458147441B7}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PickUp.cs">
     <Files>
-      <File FileName="Assets/Scripts/CameraFollow.cs" Line="5" Column="26" />
+      <File FileName="Assets/Scripts/CharacterMovement.cs" Line="5" Column="1" />
+      <File FileName="Assets/Scripts/CameraFollow.cs" />
       <File FileName="Assets/Scripts/SceneTrans.cs" />
-      <File FileName="Assets/Scripts/CharacterMovement.cs" Line="41" Column="50" />
-      <File FileName="Assets/Scripts/PickUp.cs" Line="10" Column="9" />
+      <File FileName="Assets/Scripts/PickUp.cs" Line="22" Column="52" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,7 +12,7 @@
           <Node name="MailDog" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="CameraFollow.cs" selected="True" />
+                <Node name="CharacterMovement.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -22,7 +22,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="951c6d13-6511-40b9-baa1-d2cc163e9631" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6f2b1490-f1c3-4862-9863-79626d151426" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
