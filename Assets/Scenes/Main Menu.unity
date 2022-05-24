@@ -1477,12 +1477,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 612891392}
     m_Modifications:
     - target: {fileID: 1330376471139481531, guid: 32a6a3f2e5390432895a0701ed165fec, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1330376471139481531, guid: 32a6a3f2e5390432895a0701ed165fec, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1208647278}
+      objectReference: {fileID: 1208647280}
     - target: {fileID: 1330376471139481531, guid: 32a6a3f2e5390432895a0701ed165fec, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: Stop
+      objectReference: {fileID: 0}
+    - target: {fileID: 1330376471139481531, guid: 32a6a3f2e5390432895a0701ed165fec, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.AudioSource, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 1330376472451043200, guid: 32a6a3f2e5390432895a0701ed165fec, type: 3}
       propertyPath: m_Pivot.x
