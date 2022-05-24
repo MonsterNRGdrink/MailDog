@@ -1,14 +1,17 @@
 fileFormatVersion: 2
-guid: 4e2526b69538548849574ebc2112a490
+guid: 688ddceeb7b351141ac55d4754a087c0
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable:
   - first:
-      74: 7007069243673831616
-    second: WalkAnim
+      74: 7876916813599855466
+    second: Armature|Armature|idleAnim|idleAnim
   - first:
-      74: 1333862248328801081
-    second: idleAnim
+      74: -4974373748787592729
+    second: Armature|Armature|WalkAnim|WalkAnim
+  - first:
+      74: -2486513567268412113
+    second: Armature|Armature|WalkAnim|WalkAnim (1)
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -29,7 +32,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 3
+    animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -38,8 +41,8 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: WalkAnim
-      takeName: WalkAnim
+      name: Armature|Armature|WalkAnim|WalkAnim (1)
+      takeName: Armature|Armature|WalkAnim|WalkAnim
       internalID: 0
       firstFrame: 0
       lastFrame: 41
@@ -48,7 +51,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 0
+      hasAdditiveReferencePose: 1
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -67,17 +70,17 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: idleAnim
-      takeName: idleAnim
+      name: Armature|Armature|WalkAnim|WalkAnim
+      takeName: Armature|Armature|WalkAnim|WalkAnim
       internalID: 0
       firstFrame: 0
-      lastFrame: 40
+      lastFrame: 41
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 0
+      hasAdditiveReferencePose: 1
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -149,16 +152,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
+    globalScale: 0.01
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 1
+    hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 3
+  animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 1
+  avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   additionalBone: 0
   userData: 
