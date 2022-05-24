@@ -17601,6 +17601,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e899ed89dcdcf3a47aa05f7e9c8d8627, type: 3}
+--- !u!95 &1428018168 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5127518502899033387, guid: 11c1b99755dfb1b4a9ae4dba02868101, type: 3}
+  m_PrefabInstance: {fileID: 4614507225388542206}
+  m_PrefabAsset: {fileID: 0}
+--- !u!195 &1428018171 stripped
+NavMeshAgent:
+  m_CorrespondingSourceObject: {fileID: 6830679414828144940, guid: 11c1b99755dfb1b4a9ae4dba02868101, type: 3}
+  m_PrefabInstance: {fileID: 4614507225388542206}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1428159887
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26778,7 +26788,20 @@ PrefabInstance:
       propertyPath: targetObject
       value: 
       objectReference: {fileID: 1357569862}
-    m_RemovedComponents: []
+    - target: {fileID: 7748717652886266181, guid: 11c1b99755dfb1b4a9ae4dba02868101, type: 3}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 1428018168}
+    - target: {fileID: 7748717652886266181, guid: 11c1b99755dfb1b4a9ae4dba02868101, type: 3}
+      propertyPath: agent
+      value: 
+      objectReference: {fileID: 1428018171}
+    - target: {fileID: 9087198755688265868, guid: 11c1b99755dfb1b4a9ae4dba02868101, type: 3}
+      propertyPath: targetObject
+      value: 
+      objectReference: {fileID: 1357569862}
+    m_RemovedComponents:
+    - {fileID: 824483643506689541, guid: 11c1b99755dfb1b4a9ae4dba02868101, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 11c1b99755dfb1b4a9ae4dba02868101, type: 3}
 --- !u!4 &5116538048491079319
 Transform:

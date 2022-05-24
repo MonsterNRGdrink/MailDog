@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CharacterAnimator : MonoBehaviour
+public class DogAnimator : MonoBehaviour
 {
 
 
-    UnityEngine.AI.NavMeshAgent agent;
+    public UnityEngine.AI.NavMeshAgent agent;
     public Animator anim;
 
     float motionSmoothTime = .1f; 

@@ -15,21 +15,6 @@ public class CharacterMovement : MonoBehaviour {
     {
         agent = GetComponent<NavMeshAgent>();
     }
-
-    /*
-  void Update() {
-    if (Input.GetMouseButtonDown(0)) {
-      RaycastHit hitInfo;
-
-      if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hitInfo, Mathf.Infinity))
-      {
-        agent.SetDestination(hitInfo.point);
-        agent.stoppingDistance = 0;
-      }
-    }
-  }
-    */
-
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -42,13 +27,5 @@ public class CharacterMovement : MonoBehaviour {
                 agent.SetDestination(targetObject.position);
             }
         }
-
-
-
-
-        /*NavMeshHit targetLocation;
-        NavMesh.FindClosestEdge(targetObject.position, out targetLocation, NavMesh.AllAreas);
-        agent.SetDestination(targetLocation.position);
-        */
     }
 }
