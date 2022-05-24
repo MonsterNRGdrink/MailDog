@@ -7,13 +7,13 @@ using UnityEngine.AI;
 [RequireComponent(typeof(NavMeshAgent))]
 public class CharacterMovement : MonoBehaviour {
 
+    private Animator animator;
     private NavMeshAgent agent;
     [SerializeField] private Transform targetObject;
 
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        
     }
 
     /*
@@ -42,6 +42,8 @@ public class CharacterMovement : MonoBehaviour {
                 agent.SetDestination(targetObject.position);
             }
         }
+
+
 
 
         /*NavMeshHit targetLocation;
