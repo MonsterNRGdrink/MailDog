@@ -102,11 +102,11 @@ GameObject:
   m_Component:
   - component: {fileID: 610178996538124200}
   - component: {fileID: 6830679414828144940}
-  - component: {fileID: 2125386089233484421}
   - component: {fileID: 5127518502899033387}
   - component: {fileID: 2081356478397965632}
   - component: {fileID: 7748717652886266181}
   - component: {fileID: 9087198755688265868}
+  - component: {fileID: 8212601428459265280}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -153,19 +153,6 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!65 &2125386089233484421
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 233090126131985682}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2.3895721, y: 5.0195084, z: 2.755394}
-  m_Center: {x: 0.22610092, y: 1.4869388, z: 1.0985069}
 --- !u!95 &5127518502899033387
 Animator:
   serializedVersion: 3
@@ -228,6 +215,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetObject: {fileID: 0}
+--- !u!64 &8212601428459265280
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 233090126131985682}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &538192979403322704
 GameObject:
   m_ObjectHideFlags: 0
